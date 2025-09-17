@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cloudflare Sample App</title>
+    <style>
+        body { font-family: Arial; text-align: center; margin-top: 50px; }
+        button { padding: 10px 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Cloudflare Pages!</h1>
+    <p>Click the button to see a message:</p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById('message').innerText = "Your app is live on Cloudflare!";
+        }
+    </script>
+</body>
+</html>
